@@ -681,6 +681,9 @@ img {
   opacity: 0;
   pointer-events: none;
 }
+.modal-wrap {
+  margin-bottom: 8px;
+}
 .modal-text {
   font-weight: 500;
   line-height: 1.5;
@@ -707,7 +710,7 @@ img {
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
-  transition: border-color var(--transition), color var(--transition);
+  transition: border-color var(--transition);
 }
 .modal-input:focus,
 .modal-input:hover {
@@ -739,13 +742,14 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 16px;
   resize: none;
   outline: transparent;
   background-color: transparent;
-  transition: border-color var(--transition), color var(--transition);
+  transition: border-color var(--transition);
 }
 .modal-textarea:focus,
 .modal-textarea:hover {
