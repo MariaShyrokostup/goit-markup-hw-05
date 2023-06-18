@@ -736,6 +736,9 @@ img {
 .modal-wrap {
   margin-bottom: 8px;
 }
+.modal-comment-wrap {
+  margin-bottom: 16px;
+}
 .modal-textarea {
   width: 100%;
   height: 120px;
