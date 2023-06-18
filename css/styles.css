@@ -773,7 +773,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--border-gray);
-  display: flex;
   align-items: center;
   margin-top: 16px;
 }
