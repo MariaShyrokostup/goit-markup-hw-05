@@ -501,31 +501,31 @@
             </div>
           </div>
           <div class="modal-wrap">
-            <label for="comment" class="label-text">Comment</label>
-            <div class="input-wrap">
-              <textarea
-                class="modal-textarea"
-                name="modal-text"
-                placeholder="Text input"
-                id="comment"
-              ></textarea>
+            <label for="user-comment" class="label-text">Comment</label>
+            <textarea
+              class="modal-textarea"
+              name="modal-text"
+              placeholder="Text input"
+              id="user-comment"
+            ></textarea>
+            <div class="modal-checkbox">
+              <input
+                type="checkbox"
+                name="terms"
+                id="user-privacy"
+                class="check visually-hidden"
+                value="true"
+              />
+              <label for="user-privacy" class="check-text">
+                <span class="checkmark">
+                  <svg class="check-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-checkmark"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a class="privacy-policy" href="">Privacy Policy</a></label
+              >
             </div>
-            <input
-              type="checkbox"
-              name="terms"
-              id="policy"
-              class="check visually-hidden"
-              value="true"
-            />
-            <label for="policy" class="check-text">
-              <span>
-                <svg class="check-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-checkmark"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a class="privacy-policy" href="">Privacy Policy</a></label
-            >
           </div>
           <button class="modal-button-send" type="submit">Send</button>
         </form>
